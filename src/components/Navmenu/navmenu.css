@@ -1,0 +1,30 @@
+.botoesdenavegacao {
+    width: 100%;
+    display:inline;
+    text-align: center;
+}
+
+.Navmenu :link{
+    color:rgb(0, 0, 0);
+    font-family:cursive;
+}
+
+.Navmenu {
+    position: fixed;
+    top: 1rem;
+    display: flex;
+    width: 680px;
+    nav-left: current;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(233, 222, 222);
+    z-index: 1000; 
+}
+
+
+.roboto-thin-italic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+

@@ -1,0 +1,59 @@
+
+.header-perfil{
+    display: flex;
+    align-items: center;
+    background-color: #6f2b92;
+    border-radius: 30px;
+    padding: 1%;
+    font-size:smaller;
+  }
+  
+  .icon-usuario {
+    display: flex;
+    width: 28%;
+    padding: .8rem;
+  }
+  
+  .info .subinfo, .exp-perfil{
+    margin-left: 1rem;
+    color: #fff;
+  }
+  
+  .coin{
+    width: 7%;
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 0.4rem;
+  }
+
+    .coin-valor{
+      display: flex;
+      align-items: center;
+      color: #fff;
+
+    }
+  
+  .subinfo-progresso {
+    display: flex;
+    align-items: center; 
+    color: #fff;
+  }
+  
+  .notificacao{
+    width: 8%;
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 100%;
+  }
+ 
+.badge {
+    position: absolute;
+    top: 0;
+    right: .5px;
+    background-color: red;
+    color: white;
+    border-radius: 60%;
+    padding: 2px 5px;
+    font-size: 10px;
+}

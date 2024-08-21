@@ -1,0 +1,10 @@
+.header {
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    display: flex;
+}
+
+#voltar {
+    width: 3%;
+    margin-right: 1rem;
+}
