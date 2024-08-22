@@ -14,7 +14,7 @@ function Update() {
 
             <div className="register-container">
               
-                <a href="/perfil">
+                <a href="/">
                     <img 
                         className="btn-backPage"
                         src={BackArrow} 

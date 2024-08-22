@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import './Estoque.css'; 
 import { Link } from 'react-router-dom';
 
-import voltar from '/img/svgs/voltar.svg'
-
-
-
+import alvo from '/img/svgs/alvo.svg'
+import Navmenu from '../Navmenu/Navmenu';
 
 export default function Estoque() {
     const [produtos, setProdutos] = useState([]);
@@ -40,14 +38,16 @@ export default function Estoque() {
 
     return (
         <div className="todocontainer">
+            <Navmenu/>
             <div className="header">
-                
-                <img id= "voltar" src={voltar}  />
-                <h1>Controle de Estoque</h1>
+                <div id="sair-app">
+                    <img className="btn-alvoPage" src={alvo} alt="alvo" />
+                    <h1 className="titulodapagina">Controle de Estoque</h1>
+                </div>
             </div>
+
             <div className="form-container">
                 <h2>Adicionar Novo Produto</h2>
-
                 <form className='tabela-estoque'>
                     <input
                         type="text"
@@ -94,6 +94,7 @@ export default function Estoque() {
                     <button type="button" onClick={adicionarProduto}>Adicionar Produto</button>
                 </form>
             </div>
+
             <div className="table-container">
                 <h2>Produtos em Estoque</h2>
                 <table>

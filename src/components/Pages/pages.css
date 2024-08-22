@@ -1,4 +1,4 @@
-Geral
+/* Geral */
 
 *{
     padding: 0;
@@ -7,18 +7,12 @@ Geral
     box-sizing: border-box;
 }
 
-body {
-    background-color:#660099;
-    background-position: center;
-    background-size: cover;
-}
-
 .todolist {
     align-items: center;
 }
 
 button {
-    border: 1px solid #660099;
+    border: 1px solid #07000a;
     padding: 0.8% 1%;
     font-size: 1rem;
     display: fixed;

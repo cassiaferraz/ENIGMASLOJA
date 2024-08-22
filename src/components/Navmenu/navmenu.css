@@ -2,6 +2,7 @@
     width: 100%;
     display:inline;
     text-align: center;
+    background-color: rgb(228, 228, 228);;
 }
 
 .Navmenu :link{
@@ -10,15 +11,16 @@
 }
 
 .Navmenu {
-    position: fixed;
-    top: 1rem;
+    padding: .7rem;
+    position:absolute;
+    top: 1%;
     display: flex;
     width: 680px;
-    nav-left: current;
     align-items: center;
     border-radius: 8px;
-    background-color: rgb(233, 222, 222);
+    background-color: rgb(228, 228, 228);
     z-index: 1000; 
+    
 }
 
 
